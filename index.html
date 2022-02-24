@@ -1,0 +1,50 @@
+<!Doctype html>
+<html>
+  <head>
+    <title>Bizzare Chess</title>
+    <link rel="stylesheet" href="main.css">
+
+  <!-- jQuery -->
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous">
+  </script>
+
+  <!-- chessboard stylesheet -->
+  <link rel="stylesheet" href="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.css"
+    integrity="sha384-q94+BZtLrkL1/ohfjR8c6L+A6qzNH9R2hBLwyoAfu3i/WCvQjzL2RQJ3uNHDISdU"
+    crossorigin="anonymous">
+
+
+
+  </head>
+
+  <body>
+    <hr>
+    <p>Objective:
+      <ol>
+        <li>allow players to make legal moves without waiting for oponent</li>
+        <li>make pieces disappear on-the-go as the game progresses</li>
+      </ol>
+    </p>
+    <hr>
+    <div id="myBoard" style="width: 400px"></div>
+
+    <!-- chessboard source -->
+    <script src="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.js"
+      integrity="sha384-8Vi8VHwn3vjQ9eUHUxex3JSN/NFqUg3QbPyX8kWyb93+8AC/pPWTzj+nHtbC5bxD"
+      crossorigin="anonymous">
+    </script>
+
+    <!-- chess legal moves -->
+    <script src="chess.js-master/chess.js"></script>
+
+    <script src="main.js"></script>
+
+
+  </body>
+  <hr>
+
+  <footer class="fut wrapper">&copy Fkiros 2022</footer>
+</html>
